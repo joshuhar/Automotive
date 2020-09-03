@@ -80,7 +80,7 @@ void loop() {
     }
  }
 
-    revPerSecond = 1000000/(timeTotal); //RPS (s) = 1000 x 1/waktu total(ms)
+    revPerSecond = 1000000/(timeTotal); //RPS (s) = 1000000 x 1/waktu total(us)
     revPerMinute = revPerSecond*60; //RPM = 60 x RPS
  
 //----routine untuk menampilkan pembacaan----//
