@@ -69,7 +69,7 @@ void loop() {
     }
   }
 
-    revPerSecond = (1000000/timeTotal)*(1/(2*pulser_teeth)); //RPS (s) = ( 1000000 x 1/waktu total(us) ) * 1/(2*jumlah tonjolan pulser)
+    revPerSecond = (1000000/(float)timeTotal)/(2*pulser_teeth); //RPS (s) = ( 1000000 x 1/waktu total(us) /(2*jumlah tonjolan pulser)
     revPerMinute = revPerSecond*60; //RPM = 60 x RPS
  
 //----routine untuk menampilkan pembacaan----//
